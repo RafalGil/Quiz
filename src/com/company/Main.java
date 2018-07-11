@@ -1,6 +1,7 @@
 package com.company;
 
 import javax.swing.*;
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -9,6 +10,9 @@ public class Main extends JFrame {
 
     //program ma zawierać pytanie
     //i  ma zawierać 2 przysiski tak i nie
+    private JButton buttonYes;
+    private JButton buttonNo;
+    private JLabel labelQuestion;
 
 
 
@@ -17,12 +21,26 @@ public class Main extends JFrame {
         setSize(500,500); // ustawia wielkość okna
         setDefaultCloseOperation(1); // sprawia, że działa przycisk exit
         setVisible(true);   // sprawia że okno jest widoczne
+        buttonYes = new JButton("Tak");
+        buttonNo = new JButton("Nie");
+        labelQuestion = new JLabel("Czy Polska leży w Europie",0);
+        add(labelQuestion);
+        add(buttonYes);
+        add(buttonNo);
+
+        setLayout(new GridLayout(3,1));
 
      }
     public static void main(String[] args) {
 	// write your code here
 
-        Main main = new Main ();
+        SwingUtilities.invokeLater(new Runnable() {
+            @Override
+            public void run() {
+                Main main = new Main ();
+            }
+        });
+
         List<Question> questionList = new ArrayList<>();
 
 
