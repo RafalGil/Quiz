@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1796f9c-fecf-4845-bea0-420f99091a40" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/QuestionGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/SimpleQuestionGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milionares/com/company/Main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milionares/com/company/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Question.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,12 +23,10 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+            <state relative-caret-position="85">
+              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#993#994#0" expanded="true" />
-                <element signature="e#1048#1049#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -33,6 +37,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -44,6 +49,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Question.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Question.java" />
+        <option value="$PROJECT_DIR$/src/com/company/QuestionGenerator.java" />
+        <option value="$PROJECT_DIR$/src/com/company/SimpleQuestionGenerator.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
       </list>
     </option>
@@ -85,6 +93,9 @@
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -131,13 +142,13 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.3290938" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290938" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3290938" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3290938" />
       <window_info id="Capture Tool" order="2" />
@@ -165,7 +176,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
-          <line>38</line>
+          <line>83</line>
           <properties method="run">
             <option name="EMULATED" value="true" />
           </properties>
@@ -182,16 +193,7 @@
           <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#993#994#0" expanded="true" />
-            <element signature="e#1048#1049#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Question.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -202,14 +204,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/SimpleQuestionGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#993#994#0" expanded="true" />
-            <element signature="e#1048#1049#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Question.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/QuestionGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
