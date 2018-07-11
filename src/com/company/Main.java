@@ -1,13 +1,28 @@
 package com.company;
 
+import javax.swing.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Main {
+public class Main extends JFrame {
 
+    //program ma zawierać pytanie
+    //i  ma zawierać 2 przysiski tak i nie
+
+
+
+    public Main (){
+        super ("Milionerzy"); //ustawia tytuł okna
+        setSize(500,500); // ustawia wielkość okna
+        setDefaultCloseOperation(1); // sprawia, że działa przycisk exit
+        setVisible(true);   // sprawia że okno jest widoczne
+
+     }
     public static void main(String[] args) {
 	// write your code here
+
+        Main main = new Main ();
         List<Question> questionList = new ArrayList<>();
 
 
